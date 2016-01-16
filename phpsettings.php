@@ -12,8 +12,6 @@ if ('production' === $env) {
 }
 
 ini_set('arg_separator.output', '&amp;');
-ini_set('short_open_tag', false);
-ini_set('magic_quotes_gpc', false);
 ini_set('session.use_cookies', true);
 ini_set('session.use_only_cookies', true);
 ini_set('session.use_trans_sid', false);
